@@ -1,26 +1,68 @@
 {
   "id": "lagoon",
   "name": "Lagoon Themes",
-  "version": "1.0.0",
-  "description": "A deep teal dark theme for Vicuna.",
+  "version": "1.1.0",
+  "description": "Deep teal dark + sandy light themes for Vicuna.",
   "themes": [
     {
       "id": "lagoon-night",
       "name": "Lagoon Night",
       "base": "dark",
       "vars": {
-        "--bg": "#0f2a2e", "--text": "#e2f1ef", "--text-dim": "#9fbfbb",
-        "--muted": "#9fbfbb", "--muted-2": "#86a8a4", "--faint": "#6d8f8b",
-        "--hover": "#1d4247", "--hover-2": "#1d4247", "--hover-3": "#1d4247",
-        "--active-item": "#1d4247", "--item-bg": "#163a3f", "--composer": "#163a3f",
-        "--card": "#163a3f", "--border": "#2a5459", "--border-2": "#346369", "--border-3": "#346369",
-        "--border-strong": "#346369", "--input-border": "#346369",
-        "--bubble-user": "#1d4247", "--chip": "#1d4247",
-        "--icon": "#9fbfbb", "--icon-dim": "#86a8a4", "--thinking": "#9fbfbb",
-        "--code-bg": "#163a3f", "--code-inline": "#1d4247",
-        "--send-disabled": "#2a5459", "--cancel-bg": "#1d4247", "--cancel-hover": "#2a5459"
+        "--bg": "#0f2a2e",
+        "--text": "#e2f1ef",
+        "--text-dim": "#9fbfbb",
+        "--muted": "#9fbfbb",
+        "--muted-2": "#86a8a4",
+        "--faint": "#6d8f8b",
+        "--hover": "#1d4247",
+        "--hover-2": "#1d4247",
+        "--hover-3": "#1d4247",
+        "--active-item": "#1d4247",
+        "--item-bg": "#163a3f",
+        "--composer": "#163a3f",
+        "--card": "#163a3f",
+        "--border": "#2a5459",
+        "--border-2": "#346369",
+        "--border-3": "#346369",
+        "--border-strong": "#346369",
+        "--input-border": "#346369",
+        "--bubble-user": "#1d4247",
+        "--chip": "#1d4247",
+        "--icon": "#9fbfbb",
+        "--icon-dim": "#86a8a4",
+        "--thinking": "#9fbfbb",
+        "--code-bg": "#163a3f",
+        "--code-inline": "#1d4247",
+        "--send-disabled": "#2a5459",
+        "--cancel-bg": "#1d4247",
+        "--cancel-hover": "#2a5459"
       },
-      "accent": { "bg": "#2dd4bf", "hover": "#14b8a6", "fg": "#0f2a2e" }
+      "accent": {
+        "bg": "#2dd4bf",
+        "hover": "#14b8a6",
+        "fg": "#0f2a2e"
+      }
+    },
+    {
+      "id": "lagoon-dune",
+      "name": "Lagoon Dune",
+      "base": "light",
+      "vars": {
+        "--bg": "#fbf6ec",
+        "--card": "#ffffff",
+        "--hover": "#f1e8d6",
+        "--hover-2": "#f1e8d6",
+        "--composer": "#f6efe1",
+        "--item-bg": "#f6efe1",
+        "--border": "#e6dac4",
+        "--border-2": "#d9cab0"
+      },
+      "accent": {
+        "bg": "#0f766e",
+        "hover": "#115e59",
+        "fg": "#ffffff"
+      }
     }
   ]
 }
